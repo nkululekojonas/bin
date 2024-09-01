@@ -19,7 +19,7 @@ This repository is a hub for various Bash scripts that can help automate common 
 ### Prerequisites
 
 To use the scripts in this repository, you'll need:
-- A Unix-like operating system (Linux, macOS, or WSL on Windows)
+- A Unix-like operating system (Linux, macOS, or WSL on Windowss)(A lot of these will only work on MacOS)
 - Bash shell (usually pre-installed)
 - Any specific tools or dependencies mentioned in individual script descriptions
 
@@ -28,7 +28,7 @@ To use the scripts in this repository, you'll need:
 You can clone this repository using the following command:
 
 \`\`\`bash
-git clone https://github.com/yourusername/shell-utilities.git
+git clone https://github.com/nkululekojonas/shell-utilities.git
 cd shell-utilities
 \`\`\`
 
@@ -36,14 +36,13 @@ cd shell-utilities
 
 Below is a list of scripts currently available in this repository:
 
-- **script1.sh**: Brief description of what this script does.
-- **script2.sh**: Brief description of what this script does.
-- **script3.sh**: Brief description of what this script does.
+- **battery**: A Bash script for battery information i.e (cycle count, health) on MacOS.
+- **init-repo**: Initialise a repo in a specified location and add deefault gitignore file.
   
 You can run any of these scripts by navigating to the directory and executing them with:
 
 \`\`\`bash
-./script-name.sh
+./script-name
 \`\`\`
 
 Make sure the script is executable:
