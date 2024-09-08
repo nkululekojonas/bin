@@ -1,66 +1,91 @@
-# shell-utilities
+# Shell Utilities
 
-A collection of Bash scripts and utilities for automating tasks and streamlining workflows. This repository includes various scripts for system administration, development, and other automation needs. Feel free to explore, contribute, and make use of these scripts in your projects.
+A collection of Bash scripts and utilities for automating tasks and streamlining workflows on macOS. This repository includes various scripts for system administration, development, and other automation needs.
 
 ## Table of Contents
 
-- [Introduction](#introduction)
+- [Overview](#overview)
 - [Getting Started](#getting-started)
-- [Scripts](#scripts)
+  - [Prerequisites](#prerequisites)
+  - [Installation](#installation)
+- [Available Scripts](#available-scripts)
+- [Usage](#usage)
 - [Contributing](#contributing)
 - [License](#license)
 
-## Introduction
+## Overview
 
-This repository is a hub for various Bash scripts that can help automate common tasks, improve productivity, and simplify system management. Whether you're a developer, sysadmin, or just someone looking to automate repetitive tasks, you'll find useful scripts here.
+This repository serves as a hub for various Bash scripts designed to enhance productivity and simplify system management on macOS. Whether you're a developer, system administrator, or someone looking to automate repetitive tasks, you'll find useful scripts here to streamline your workflow.
 
 ## Getting Started
 
 ### Prerequisites
 
 To use the scripts in this repository, you'll need:
-- A Unix-like operating system (Linux, macOS, or WSL on Windowss)(A lot of these will only work on MacOS)
-- Bash shell (usually pre-installed)
+
+- macOS operating system
+- Bash shell (pre-installed on macOS)
 - Any specific tools or dependencies mentioned in individual script descriptions
 
-### Cloning the Repository
+### Installation
 
-You can clone this repository using the following command:
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/nkululekojonas/shell-utilities.git
+   ```
 
-\`\`\`bash
-git clone https://github.com/nkululekojonas/shell-utilities.git
-cd shell-utilities
-\`\`\`
+2. Navigate to the project directory:
+   ```bash
+   cd shell-utilities
+   ```
 
-## Scripts
+3. Make the scripts executable:
+   ```bash
+   chmod +x *.sh
+   ```
 
-Below is a list of scripts currently available in this repository:
+## Available Scripts
 
-- **battery**: A Bash script for battery information i.e (cycle count, health) on MacOS.
-- **init-repo**: Initialise a repo in a specified location and add deefault gitignore file.
-  
-You can run any of these scripts by navigating to the directory and executing them with:
+Here's a list of scripts currently available in this repository:
 
-\`\`\`bash
-./script-name
-\`\`\`
+| Script Name | Description |
+|-------------|-------------|
+| `battery.sh` | Displays battery information (cycle count, health) on macOS |
+| `init-repo.sh` | Initializes a Git repository in a specified location and adds a default `.gitignore` file |
 
-Make sure the script is executable:
+## Usage
 
-\`\`\`bash
-chmod +x script-name.sh
-\`\`\`
+To run any script, use the following command format:
+
+```bash
+./script-name.sh
+```
+
+For example:
+
+```bash
+./battery.sh
+```
+
+For detailed usage instructions for each script, please refer to the comments within the script files or run the script with the `--help` flag.
 
 ## Contributing
 
-Contributions are welcome! If you have a useful script or improvements to existing ones, feel free to open a pull request. Please follow these steps:
+Contributions are welcome and appreciated! If you have a useful script or improvements to existing ones, please follow these steps:
 
 1. Fork the repository
-2. Create a new branch (\`git checkout -b feature-branch\`)
-3. Commit your changes (\`git commit -m 'Add new feature'\`)
-4. Push to the branch (\`git push origin feature-branch\`)
-5. Open a Pull Request
+2. Create a new branch (`git checkout -b feature/AmazingFeature`)
+3. Make your changes
+4. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+5. Push to the branch (`git push origin feature/AmazingFeature`)
+6. Open a Pull Request
+
+Please ensure your code adheres to the existing style and includes appropriate documentation.
 
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+---
+
+For any questions or issues, please open an issue on the GitHub repository.
