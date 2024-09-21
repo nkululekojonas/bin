@@ -52,6 +52,7 @@ Here's a list of scripts currently available in this repository:
 |-------------|-------------|
 | `battery.sh` | Displays battery information (cycle count, health) on macOS |
 | `init-repo.sh` | Initializes a Git repository in a specified location and adds a default `.gitignore` file |
+| `hw.sh` | Prints Hello, Wold! |
 
 ## Usage
 
