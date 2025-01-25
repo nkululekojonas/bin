@@ -18,10 +18,15 @@ To use the scripts in this repository, you'll need:
    ```bash
    git clone https://github.com/nkululekojonas/shell-utilities.git ~/bin
    ```
+   Note this assumes `~/bin` doesn't already exist or is empty, otherwise run:
+
+   ```bash
+   git clone https://github.com/nkululekojonas/shell-utilities.git
+   ```
 
 2. Navigate to the project directory:
    ```bash
-   cd ~/bin
+   cd shell-utilities
    ```
 
 ### Optionally 
