@@ -16,20 +16,16 @@ To use the scripts in this repository, you'll need:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/nkululekojonas/shell-utilities.git ~/bin
+   git clone https://github.com/nkululekojonas/bin.git ~/bin
    ```
    Note this assumes `~/bin` doesn't already exist or is empty, otherwise run:
 
-   ```bash
-   git clone https://github.com/nkululekojonas/shell-utilities.git
-   ```
-
 2. Navigate to the project directory:
    ```bash
-   cd shell-utilities
+   cd bin
    ```
 
-### Optionally 
+### Optional
 
 Make the scripts executable: (they should already to be executable)
    ```bash
@@ -43,6 +39,8 @@ Here's a list of scripts currently available in this repository:
 | Script Name | Description |
 |-------------|-------------|
 | `battery` | Displays battery information (cycle count, health) on macOS |
+| `search | Quick search in a directory for a string |
+| `dns-flush` | Flush DNS settings on macOS |
 | `longest` | Find the longest line in the files of given exetion |
 | `hw` | Prints Hello, username! |
 
