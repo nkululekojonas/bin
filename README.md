@@ -18,11 +18,12 @@ To use the scripts in this repository, you'll need:
    ```bash
    git clone https://github.com/nkululekojonas/bin.git ~/bin
    ```
-   Note this assumes `~/bin` doesn't already exist or is empty, otherwise run:
+   Note: this assumes `~/bin` doesn't already exist or is empty. 
+   If you already have a non empty `~/bin` directory change destination location when cloning.
 
 2. Navigate to the project directory:
    ```bash
-   cd bin
+   cd ~/bin
    ```
 
 ### Optional
