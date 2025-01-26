@@ -43,6 +43,8 @@ Here's a list of scripts currently available in this repository:
 | `search` | Quick search in a directory for a string |
 | `dns-flush` | Flush DNS settings on macOS |
 | `longest` | Find the longest line in the files of given exetion |
+| `update` | Update macos, brew, mas and omz (see usage instructions |
+| `check_internet` | Use ping to check for an internet connection |
 | `hw` | Prints Hello, username! |
 
 ## Usage
