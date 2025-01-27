@@ -45,6 +45,7 @@ Here's a list of scripts currently available in this repository:
 | `longest` | Find the longest line in the files of given exetion |
 | `update` | Update macos, brew, mas and omz (see usage instructions |
 | `check_internet` | Use ping to check for an internet connection |
+| `backup` | Backup given directories to target directory |
 | `hw` | Prints Hello, username! |
 
 ## Usage

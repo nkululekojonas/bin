@@ -1,0 +1,45 @@
+#!/usr/bin/env bash
+#
+# Backup files from source to target directory 
+#
+# Author: Nkululeko Jonas
+# Date: 27-01-24
+# License: MIT
+
+usage()
+{
+    echo "Usage:"
+    echo "backup <source ... > <target>"
+    exit 1
+}
+
+# Validate inputs
+if [[ "$#" -lt 2 ]]; then
+    usage
+fi 
+
+# Last argument is the backup destination directory
+BACKUP_DIR="${@: -1}"
+
+# All arguments except the last are source directories
+SOURCE_DIRS=("${@:1:$#-1}")
+
+# Timestamp for the backup file
+TIMESTAMP="$(date +%Y-%m-%d)"
+
+# Backup file name
+BACKUP_FILE="BACKUP_${TIMESTAMP}.tar.gz"
+
+# Create backup directory if it doesn't exist
+mkdir -p "$BACKUP_DIR"
+
+# Create the backup
+tar -czf "${BACKUP_DIR}/${BACKUP_FILE}" -C "$(dirname "${SOURCE_DIRS[0]}")" "${SOURCE_DIRS[@]##*/}"
+
+# Check if the backup was successful
+if [[ $? -eq 0 ]]; then
+    echo "Backup successful!"
+    echo "Backup file: ${BACKUP_DIR}/${BACKUP_FILE}"
+else 
+    echo "Backup failed!"
+fi
