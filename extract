@@ -1,0 +1,30 @@
+#!/bin/bash
+
+# Script to extract various archive formats
+
+if [[ $# -ne 1 ]]; then
+    echo "Usage: $(basename "$0") <archive-file>"
+    exit 1
+fi
+
+FILE="$1"
+
+if [[ -f "$FILE" ]]; then
+    case "$FILE" in
+        *.tar.bz2)   tar xjf "$FILE"     ;;
+        *.tar.gz)    tar xzf "$FILE"     ;;
+        *.bz2)       bunzip2 "$FILE"     ;;
+        *.rar)       unrar e "$FILE"     ;;
+        *.gz)        gunzip "$FILE"      ;;
+        *.tar)       tar xf "$FILE"      ;;
+        *.tbz2)      tar xjf "$FILE"     ;;
+        *.tgz)       tar xzf "$FILE"     ;;
+        *.zip)       unzip "$FILE"       ;;
+        *.Z)         uncompress "$FILE"  ;;
+        *.7z)        7z x "$FILE"        ;;
+        *)     echo "Error: '$FILE' cannot be extracted" && exit 1 ;;
+    esac
+else
+    echo "Error: '$FILE' is not a valid file"
+    exit 1
+fi
