@@ -10,7 +10,7 @@ fi
 DIR="$1"
 
 if [[ -d "$DIR" ]]; then
-    rm -rf "$DIR"/*
+    rm -rf "${DIR:?}"/*
     echo "Emptied $DIR"
 else
     echo "Error: Directory '$DIR' does not exist"

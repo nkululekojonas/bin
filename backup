@@ -26,7 +26,7 @@ if [[ "$1" == "-t" || "$1" == "--text" ]]; then
 fi
 
 # Extract target directory (last argument)
-BACKUP_DIR="${@: -1}"
+BACKUP_DIR="${*: -1}"
 
 # Extract source files (all but last argument)
 SOURCE_FILES=("${@:1:$#-1}")

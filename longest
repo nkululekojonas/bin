@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
 
 # Change into approp dir
-cd "$1"
+cd "$1" || exit 1
 
 # Count the lines of all the file with extention provided
 # Sort them and give me the longest line
-wc -l *."$2" | sort -n | tail -n 1
+wc -l ./*."$2" | sort -n | tail -n 1

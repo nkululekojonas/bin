@@ -38,7 +38,7 @@ update() {
     # Homebrew update
     if ($update_all || $update_brew) && command -v brew &> /dev/null; then
         echo "Updating Homebrew..."
-        brew cu -facy || { echo "Error: Brew upgrade outdated apps failed"; return 1 } 
+        brew cu -facy || { echo "Error: Brew upgrade outdated apps failed"; return 1; } 
         brew upgrade || { echo "Error: Brew upgrade failed."; return 1; }
         brew cleanup || { echo "Error: Brew cleanup failed."; return 1; }
         brew autoremove || { echo "Error: Brew autoremove failed."; return 1; }
