@@ -40,6 +40,7 @@ Here's a list of scripts currently available in this repository:
 | Script Name | Description |
 |-------------|-------------|
 | `battery` | Displays battery information (cycle count, health) on macOS |
+| `empty` | Empty a directory and its exists |
 | `search` | Quick search in a directory for a string |
 | `dns-flush` | Flush DNS settings on macOS |
 | `longest` | Find the longest line in the files of given exetion |

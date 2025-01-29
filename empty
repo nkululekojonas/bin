@@ -1,0 +1,18 @@
+#!/bin/bash
+
+# Script to empty a directory if it exists
+
+if [[ $# -ne 1 ]]; then
+    echo "Usage: $(basename "$0") <directory>"
+    exit 1
+fi
+
+DIR="$1"
+
+if [[ -d "$DIR" ]]; then
+    rm -rf "$DIR"/*
+    echo "Emptied $DIR"
+else
+    echo "Error: Directory '$DIR' does not exist"
+    exit 1
+fi
