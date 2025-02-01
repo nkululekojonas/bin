@@ -1,8 +1,8 @@
-#!/usr/bin/env bash
+#!/bin/bash
 
-# Backup script to copy files or create compressed archives
+# backup: backup files to text (.bak) or create compressed archives
 # Author: Nkululeko Jonas
-# Date: 27-01-24
+# License: MIT
 
 set -euo pipefail  # Enable strict error handling
 

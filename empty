@@ -1,8 +1,8 @@
 #!/bin/bash
 
-# empty: a directory if it exists
+# empty: empty a directory if it exists
 # Author: Nkululeko Jonas
-# Licinse: MIT
+# License: MIT
 
 if [[ $# -ne 1 ]]; then
     echo "Usage: $(basename "$0") <directory>"
@@ -17,4 +17,4 @@ if [[ -d "$DIR" ]]; then
 else
     echo "Error: Directory '$DIR' does not exist"
     exit 1
-i
+fi 

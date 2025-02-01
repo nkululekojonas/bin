@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/bin/bash
 
 # longest: find the longest file with given extension
 # Author: Nkululeko Jonas

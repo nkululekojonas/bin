@@ -1,6 +1,6 @@
-#!/usr/bin/env bash
+#!/bin/bash
 
-# Flush my DNS settings on mac
+# dns-flush: flush my DNS settings on mac
 # Author: Nkululeko Jonas
 # License: MIT
 

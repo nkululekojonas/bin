@@ -1,6 +1,6 @@
-#!/usr/bin/env bash
+#!/bin/bash
 
-# hw: Print Hello, $USERNAME
+# hw: print Hello, $USER
 # Author: Nkululeko Jonas
 # License: MIT
 

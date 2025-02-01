@@ -1,8 +1,8 @@
-#!/usr/bin/env bash
+#!/bin/bash
 
-# Quick search in a directory for a stringj
+# search: search a directory for a string
 # Author: Nkululeko Jonas
-# Lincense: Nkululeko Jonas
+# License: MIT
 
 # use -iru to search directories ack usually ignores (like .git)
 if [ -x /usr/bin/ack-grep ]; then
