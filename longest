@@ -1,5 +1,10 @@
 #!/usr/bin/env bash
 
+# longest: find the longest file with given extension
+# Author: Nkululeko Jonas
+# License: MIT
+set -euo pipefail
+
 # Change into approp dir
 cd "$1" || exit 1
 

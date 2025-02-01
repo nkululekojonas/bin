@@ -1,4 +1,8 @@
 #!/usr/bin/env bash
+#
+# check_internet: Ping for a website and check return status for connection 
+# Author: Nkululeko Jonas
+# License: MIT
 
 # Check the system for internet via ping
 check_internet() {

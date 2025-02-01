@@ -1,4 +1,7 @@
 #!/usr/bin/env bash
 
-# Print Hello, 
+# hw: Print Hello, $USERNAME
+# Author: Nkululeko Jonas
+# License: MIT
+
 echo "Hello, $USER!"

@@ -1,4 +1,7 @@
 #!/usr/bin/env bash
 
 # Flush my DNS settings on mac
+# Author: Nkululeko Jonas
+# License: MIT
+
 sudo killall -HUP mDNSResponder && echo "mDNSResponder has been restarted successfully."

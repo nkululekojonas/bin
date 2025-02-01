@@ -1,10 +1,15 @@
 #!/bin/bash
+#
+# battery: Print the mac battery health information
+# Author: Nkululeko Jonas
+# License: MIT
 
+# Get battery health info 
 battery_info=$(system_profiler SPPowerDataType | grep -A 20 "Battery Information")
 health=$(echo "$battery_info" | grep "Condition" | awk -F': ' '{print $2}')
 cycle_count=$(echo "$battery_info" | grep "Cycle Count" | awk '{print $3}')
 max_capacity=$(echo "$battery_info" | grep "Maximum Capacity" | awk '{print $3}')
 
-echo "Battery Health: $health"
 echo "Cycle Count: $cycle_count"
+echo "Battery Health: $health"
 echo "Maximum Capacity: $max_capacity"

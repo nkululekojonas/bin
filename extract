@@ -1,6 +1,8 @@
 #!/bin/bash
 
-# Script to extract various archive formats
+# extract: various archive formats
+# Author: Nkululeko Jonas
+# License: MIT
 
 if [[ $# -ne 1 ]]; then
     echo "Usage: $(basename "$0") <archive-file>"
