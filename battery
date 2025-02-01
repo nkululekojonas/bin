@@ -11,5 +11,5 @@ cycle_count=$(echo "$battery_info" | grep "Cycle Count" | awk '{print $3}')
 max_capacity=$(echo "$battery_info" | grep "Maximum Capacity" | awk '{print $3}')
 
 echo "Cycle Count: $cycle_count"
-echo "Battery Health: $health"
 echo "Maximum Capacity: $max_capacity"
+echo "Battery Health: $health"
