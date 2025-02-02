@@ -1,0 +1,5 @@
+# Ignore certain scripts
+hscmd
+
+# Ignore scripts with extension
+*.sh
