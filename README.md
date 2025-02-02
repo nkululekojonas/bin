@@ -1,6 +1,6 @@
 # Shell Utilities
 
-A collection of Bash scripts and utilities for automating tasks and streamlining workflows on macOS. This repository includes various scripts for system administration, development, and other automation needs.
+Welcome to my bin, a collection of Bash scripts and utilities for automating tasks and streamlining workflows on macOS. This repository includes various scripts for system administration, development, and other automation needs.
 
 ## Getting Started
 
@@ -40,16 +40,16 @@ Here's a list of scripts currently available in this repository:
 | Script Name | Description |
 |-------------|-------------|
 | `battery` | Displays battery information (cycle count, health) on macOS |
-| `empty` | Empty a directory and its exists |
+| `empty` | Empty a directory if it exists |
 | `search` | Quick search in a directory for a string |
 | `dns-flush` | Flush DNS settings on macOS |
-| `longest` | Find the longest line in the files of given exetion |
-| `update` | Update macos, brew, mas and omz (see usage instructions |
+| `longest` | Find the longest line in files of given extension |
+| `update` | Update macos, brew, mas and omz (see usage instructions) |
 | `check_internet` | Use ping to check for an internet connection |
 | `backup` | Backup given directories to target directory |
 | `extract` | Extract various formats |
-| `hw` | Prints Hello, username! |
-| `mkexec` | Create a file if it doesn't exits and set executable permissions on it |
+| `hw` | Print Hello, username! |
+| `mkexec` | Create a file and set executable permissions on it |
 
 ## Usage
 
