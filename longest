@@ -5,6 +5,6 @@
 # License: MIT
 set -euo pipefail
 
-# Count the lines of all the file with extention provided
+# Count the lines of all the file with extension provided
 # Sort them and give me the longest line
 wc -l "$1"/*."$2" | sort -n | tail -n 1

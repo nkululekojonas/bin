@@ -47,8 +47,9 @@ Here's a list of scripts currently available in this repository:
 | `update` | Update macos, brew, mas and omz (see usage instructions |
 | `check_internet` | Use ping to check for an internet connection |
 | `backup` | Backup given directories to target directory |
-| `extract` | Extract various formts |
+| `extract` | Extract various formats |
 | `hw` | Prints Hello, username! |
+| `mkexec` | Create a file if it doesn't exits and set executable permissions on it |
 
 ## Usage
 

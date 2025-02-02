@@ -1,0 +1,32 @@
+#!/usr/bin/env bash
+
+# mkexec: create a file if it doesn't exist, then update or set executable perimission for user if it does
+# Author: Nkululeko Jonas
+# License: MIT
+
+set -eu
+
+# Log error
+error() {
+    echo "Error: $1" >&2
+}
+
+# Process each argument
+for file in "$@"; do 
+    
+    # Check if argument is a directory 
+    if [[ -d "$file" ]]; then 
+        error "File $file is a directory"
+        exit 1
+    fi 
+    
+    if [[ ! -x "$file" ]]; then 
+        touch "$file" || { error "Unable to creatile file $file"; exit 1; }
+        chmod 755 "$file" || { error "Unable to set permission on $file"; exit 1; }
+    else 
+        echo "$file is already executable"
+        command ls -l "$file"
+    fi 
+done
+
+
