@@ -49,7 +49,7 @@ Here's a list of scripts currently available in this repository:
 | `backup` | Backup given directories to target directory |
 | `extract` | Extract various formats |
 | `hw` | Print Hello, username! |
-| `mkexec` | Create a file and set executable permissions on it |
+| `mkxc` | Create a file and set executable permissions on it |
 
 ## Usage
 
