@@ -50,6 +50,7 @@ Here's a list of scripts currently available in this repository:
 | `extract` | Extract various formats |
 | `hw` | Print Hello, username! |
 | `mkxc` | Create a file and set executable permissions on it |
+| `init-pr` | Create a project directory with a README and initialise version control for it |
 
 ## Usage
 
