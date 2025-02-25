@@ -45,11 +45,11 @@ Here's a list of scripts currently available in this repository:
 | `dns-flush` | Flush DNS settings on macOS |
 | `longest` | Find the longest line in files of given extension |
 | `update` | Update macos, brew, mas and omz (see usage instructions) |
-| `check_internet` | Use ping to check for an internet connection |
+| `netcheck` | Use ping to check for an internet connection |
 | `backup` | Backup given directories to target directory |
 | `extract` | Extract various formats |
 | `hw` | Print Hello, username! |
-| `mkxc` | Create a file and set executable permissions on it |
+| `mxc` | Create a file and set executable permissions on it |
 | `init-pr` | Create a project directory with a README and initialise version control for it |
 
 ## Usage

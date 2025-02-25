@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# check_internet: ping a website and check return status for connection 
+# netcheck: ping a website (google) and check return status for connection 
 # Author: Nkululeko Jonas
 # License: MIT
 
