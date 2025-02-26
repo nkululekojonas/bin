@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 # init-pr: Create a project and initialise version control for it
-# Author: 0xA2F
+# Author: Nkululeko Jonas
 # Date: 19-02-2025
 
 # Enable strict error handling:

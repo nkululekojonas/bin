@@ -1,9 +1,10 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 # empty: empty a directory if it exists
 # Author: Nkululeko Jonas
-# License: MIT
+# Date: 26-02-2025
 
+# Validate arguments
 if [[ $# -ne 1 ]]; then
     echo "Usage: $(basename "$0") <directory>"
     exit 1
@@ -11,6 +12,7 @@ fi
 
 DIR="$1"
 
+# Attempt to empty directory
 if [[ -d "$DIR" ]]; then
     rm -rf "${DIR:?}"/*
     echo "Emptied $DIR"

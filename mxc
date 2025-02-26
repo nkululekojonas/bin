@@ -2,7 +2,7 @@
 
 # mkexec: create a file if it doesn't exist, then update or set executable perimission for user if it does
 # Author: Nkululeko Jonas
-# License: MIT
+# Date: 10-02-2025
 
 set -eu
 

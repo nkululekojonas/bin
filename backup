@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
-# backup.sh: Create compressed tarball backup of given directory paths.
-# Author: 0xA2F
+# backup: Create compressed tarball backup of given directory paths.
+# Author: Nkululeko Jonas
 # Date: 09-02-2025
 
 # Enable strict error handling

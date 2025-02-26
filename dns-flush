@@ -1,7 +1,8 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 # dns-flush: flush my DNS settings on mac
 # Author: Nkululeko Jonas
-# License: MIT
+# Date: 26-02-2025
 
+# Restart MacOS DNSResponder
 sudo killall -HUP mDNSResponder && echo "mDNSResponder has been restarted successfully."

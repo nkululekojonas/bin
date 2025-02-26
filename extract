@@ -1,8 +1,8 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 # extract: extract various archive formats
 # Author: Nkululeko Jonas
-# License: MIT
+# Date: 26-02-2025
 
 if [[ $# -ne 1 ]]; then
     echo "Usage: $(basename "$0") <archive-file>"

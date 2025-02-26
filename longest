@@ -2,7 +2,8 @@
 
 # longest: find the longest file with given extension
 # Author: Nkululeko Jonas
-# License: MIT
+# Date: 02-02-2025
+
 set -euo pipefail
 
 # Count the lines of all the file with extension provided
