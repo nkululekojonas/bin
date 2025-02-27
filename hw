@@ -1,7 +1,6 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 # hw: print Hello, $USER
 # Author: Nkululeko Jonas
-# License: MIT
 
-echo "Hello, $USER!"
+echo "hello, ${USER:-world!}"
